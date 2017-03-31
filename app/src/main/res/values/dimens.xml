@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height1">350dp</dimen>
+    <dimen name="height2">250dp</dimen>
+    <dimen name="height3">150dp</dimen>
+    <dimen name="text">30sp</dimen>
+
+
+
+</resources>

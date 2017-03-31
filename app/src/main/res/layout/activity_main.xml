@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:contentDescription="@string/frame1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView1"
+        android:background="@color/red"/>
+    <ImageView
+        android:contentDescription="@string/frame2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height1"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:background="@color/violet"
+        />
+    <ImageView
+        android:contentDescription="@string/frame3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height2"
+        android:id="@+id/imageView3"
+        android:layout_gravity="center"
+        android:background="@color/blue" />
+    <TextView
+        android:contentDescription="@string/frame4Text"
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height3"
+        android:gravity="center"
+        android:typeface="monospace"
+        android:layout_gravity="center"
+        android:background="@color/green"
+        android:textSize="@dimen/text"
+        android:textColor="@color/black"
+        android:text="@string/app_name"/>
+
+
+
+</FrameLayout>

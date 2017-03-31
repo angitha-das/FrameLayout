@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FrameLayout</string>
+    <string name="frame1">FrameLayout 1</string>
+    <string name="frame2">FrameLayout 2</string>
+    <string name="frame3">FrameLayout 3</string>
+    <string name="frame4Text">FrameLayout 4 TextView</string>
+</resources>
